@@ -1,0 +1,288 @@
+{
+	"replaceURLParams" : {
+		"fmap":"m2",
+		"panels":"tflogo+address+zoom+legend+type+measure+download+maplocation+userlocation+overview+fullscreen",
+		"legendh": "{Cities::~Capitals:Capitals_WorldMap@wm_Capitals-120-6000;Capitals:Capitals_WorldMap@wm_Capitals-6000-15000;~Metro:Big_Cities_over_million_WorldMap@wm_Cities_Greater_900K-120-5000;Metro:Big_Cities_over_million_WorldMap@wm_Cities_Greater_900K-5000-15000;~Cities:Cities_WorldMap@wm_Cities_75K_to_900K-120-2400+wm_Cities_Greater_900K-120-2400+wm_Cities_Unknownpop-120-2400;Cities:Cities_WorldMap@wm_Cities_75K_to_900K-2400-15000+wm_Cities_Greater_900K-2400-15000+wm_Cities_Unknownpop-2400-15000;};{Hubs::~Ports:Marine_Ports_WorldMap@wm_Marine_Ports-120-360;Ports:Marine_Ports_WorldMap@wm_Marine_Ports-360-2000;~Railway:Railway_Stations_WorldMap@wm_Railway_Stations-120-240;~Airports:Airports_WorldMap@wm_Airports-120-240;};{Water::Bays:Seas_and_Bays_WorldMap@wm_Seas_Bays-120-2000;Glaciers:Glaciers_WorldMap@wm_Glacier-120-4000;~Rivers_B:Lake_and_River_contours_WorldMap@wm_Water_Poly-120-500;~Great_Lakes_L:Great_Lakes_labels_WorldMap@WM_GREAT_LAKES_NAME-120-4000;~Great_Lakes_B:Great_Lakes_contours_WorldMap@wm_Great_Lakes-120-4000;OSM-water:Lake_and_River_contours_from_Open_Street_Maps@osm_water-0-4000;};{Regions::~Admin_L:States_and_Provinces_names_labeled_WorldMap@wm_World_Admin_name-120-2000;~Admin_B:States_and_Provinces_boundaries_WorldMap@wm_World_Admin-120-2000;~Countries_L:Nation_names_labeled_WorldMap@nation_name-2000-5000;Countries_L:Nation_names_labeled_WorldMap@nation_name-5000-30000;~Countries_B:Nations_boundaries_WorldMap@wm_World_Nations-120-15000;OSM-Admin:Administrative_boundaries_from_Open_Street_Maps@osm_admin-0-60000;};{Parcels::FA-address:Addresses_from_First_American_Parcel_Data@fa_address-0-0.5;FA-owner:Property_owner_from_First_American_Parcel_Data@fa_owner-0-0.5;~lines:Property_lines,_from_First_American@fa_parcel-0-1;lines:Property_lines,_from_First_American@fa_parcel-1-2;OSM-buildings:Building_contours_from_Open_Street_Maps@osm_buildings-0-7;};{People::population:People_per_block_per_Census_2000@blk_pop-0-5;income:Aggregate_Neighborhood_Income_and_number_of_homes,_per_Census-2000@bg_mhinc-0.7-10+blkgrpy-0.7-10;};{Services::~business:Yellow_Pages@nypages-0-1.2;business:Yellow_Pages@nypages-1.2-5;food:Restaurants_from_NavTeq@nv_restrnts-0-10;doctors:Physicians_specialties@physicianspecialty-0-5;};Landmarks:Cultural_Landmarks_WorldMap@wm_Cultural_Landmarks-120-240;Utilities:Utilities_WorldMap@wm_Utilities-120-720;Environment:Hydrology@prism-0-120;~Places:Places@gnis2-0-6+hotels-0-6;Places:Places@gnis2-6-24+hotels-6-24;OSM-place-names:Place_names_labeled_from_Open_Street_Maps@osm_place_names-0-30000;{Roads::lines:Road_lines_from_NavTeq@street-0-2000;names:Road_names_labeled_from_NavTeq@street_names-0-240;~OSM-lines:Road_lines_from_Open_Street_Maps@osm_roads-0.5-7000;OSM-lines:Road_lines_from_Open_Street_Maps@osm_roads-0-0.5;~OSM-names:Road_names_labeled_from_Open_Street_Maps@osm_road_names-0-7000;~routes:Routes_WorldMap@wm_Major_Routes-120-1000+wm_Minor_Routes-120-1000;routes:Routes_WorldMap@wm_Major_Routes-1000-5000+wm_Minor_Routes-1000-5000;~railways:Railroad_WorldMap@wm_Railroad_Track-120-2000;};{Towns::~borders:Borders@incorp-0-120;~towns:Cities,_towns@wtown-0-60;};plugin_photo;",
+		"legendm":"{OSM::~buildings:Building_outlines@osm_buildings-0-60;~land:Land@osm_land-0-240000;~landuse:Land_usage_information@osm_landuse-0-7000;~place_names:Names_for_country,state,city_and_other small_places@osm_place_names-0-15000;~road_names:Road_names@osm_road_names-0-240;~roads:Roads@osm_roads-0-7000;~water:Water_outlines@osm_water-0-15000;};",
+		"address":"some address",
+		"vid":"",
+		"passthrough":"",
+		"tflogo":"1",
+		"type":"hybrid",
+		"source":"best_available",
+		"rgpopup":5,
+		"help":"<span><b>Double Click</b>: Local Data Reports and Queries<br /><b>Drag</b>: Browse the map<br />Buttons: <b>Full Screen</b>, <b>Reset Rotation</b>, <b>Search Location</b>, <b>Zoom</b>, <b>Map Layers</b><br /><br />Address bar examples:<br />1 Flagler St, Miami, FL<br />Miami<br />Miami, FL<br />33139<br />25.77 -80.19 (coordinates)</span>",
+
+		"dLayerMarkerStyle1": [{ 
+			"marker": "true", "font_height": 14, "font_color": "#000", "border_color": "#000", "border_width": 2, "zindex": 2, "line_opacity": 60,
+			"line_width": 3, "line_color": "#8f0", "marker_arrowlength": 14, "label": "$[L]", "marker_color": "#ffe57f", "marker_horpos": "left", "marker_verpos": "center"
+		},{
+			"circle": "true", "circle_radius": 7, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		},{
+			"circle": "true", "circle_radius": 6, "line": true, "line_color": "#fff59f", "line_width": 2, "fill": false, "zindex": 1
+		},{
+			"circle": "true", "circle_radius": 4, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		}],
+		"dLayerMarkerHoverStyle1": [{ 
+			"marker": "true", "font_height": 16, "font_color": "#ff0", "border_color": "#000", "border_width": 3, "zindex": 4, 
+			"line_width": 3, "line_color": "#00a",  
+			"marker_arrowlength": 12, "label": "$[L]", "marker_color": "#fff59f", "marker_horpos": "left", "marker_verpos": "center"
+		},{
+			"circle": "true", "circle_radius": 7, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		},{
+			"circle": "true", "circle_radius": 6, "line": true, "line_color": "#fff59f", "line_width": 2, "fill": true, "fill_color": "#fff59f", "fill_opacity": 50, "zindex": 4
+		},{
+			"circle": "true", "circle_radius": 4, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		}
+		],
+
+		"dlayerlegend1":"MLS",
+		"dlayerdata1":"http://n00.cs.fiu.edu/cgi-bin/arquery1.cgi?category=callreal&vid=edu&tfaction=shortdisplayflash&filetype=.xml",
+		"dlayerselect1":"true",
+		"dlayerfield1":"L",
+		"dlayercolor1": "#ffe57f,0",
+
+		"dLayerMarkerStyle2": { 
+			"icon": "true", "icon_url": "$[L]", "zindex": 1, scale:1.5
+		},
+		"dLayerMarkerHoverStyle22": [{ 
+			"icon": "true", "icon_url": "$[L]", "zindex": 3, scale:1.8
+		},{ 
+			"marker": "true", "font_height": 18, "font_color": "#fff", "border_color": "#00a", "border_width": 5, "zindex": 2, "line_color": "#000", "line_width": 3,
+			"marker_arrowlength": 16, "label": "$[Display_Label]", "marker_color": "#9fffd2", "marker_horpos": "right", "marker_verpos": "center", "rotation_rad": -0.2
+		},{ 
+			"marker": "true", "font_height": 16, "font_color": "#ff8", "border_color": "#00a", "border_width": 5, "zindex": 2, "line_color": "#00c", "line_width": 3,
+			"marker_arrowlength": 18, "label": "$[compass_direction]", "marker_color": "#9fffd2", "marker_horpos": "left", "marker_verpos": "top"
+		}
+		],
+
+		
+		"dlayerlegend2":"SideView",
+		"dlayerdata2":"http://n00.cs.fiu.edu/cgi-bin/arquery.cgi?category=alta&vid=edu&tfaction=shortdisplayflash&filetype=.xml",
+		"dlayerselect2":"true",
+		"dlayerfield2":"L",
+		"dlayercolor2": "#7fe5ff,0",
+
+		"dLayerMarkerStyle3": [{ 
+			"marker": "true", "font_height": 12, "font_color": "#00b", "border_color": "#000", "border_width": 2, "zindex": 2, 
+			"line_color": "#000", "marker_arrowlength": 16, "label": "$[L]", "marker_color": "#ffb27f"
+		},{
+			"shape": "true", "shape_points": 3, "shape_radius": 12, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		},{
+			"shape": "true", "shape_points": 3, "shape_radius": 9, "line": true, "line_color": "#ffb27f", "line_width": 3, "zindex": 1
+		},{
+			"shape": "true", "shape_points": 3, "shape_radius": 6, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		}],
+		"dLayerMarkerHoverStyle3": [{ 
+			"marker": "true", "font_height": 16, "font_color": "#00b", "border_color": "#000", "border_width": 3, "zindex": 4, "line_color": "#000", 
+			"marker_arrowlength": 14, "label": "* $[L] *", "marker_color": "#ffd49f"
+		},{
+			"shape": "true", "shape_points": 3, "shape_radius": 12, "line": true, "line_color": "#000", "line_width": 1, "zindex": 3
+		},{
+			"shape": "true", "shape_points": 3, "shape_radius": 9, "line": true, "line_color": "#ffd49f", "line_width": 3, "fill": true, "fill_color": "#ffd49f", "fill_opacity": 50, "zindex": 3
+		},{
+			"shape": "true", "shape_points": 3, "shape_radius": 6, "line": true, "line_color": "#000", "line_width": 1, "zindex": 3
+		}],
+
+		"dlayerlegend3":"Business-QUERY",
+		"dlayerdata3":"http://n00.cs.fiu.edu/cgi-bin/arquery.cgi?category=iypages_demographics&vid=herald41.com&tfaction=shortdisplayflash&filetype=.xml",
+		"dlayerselect3":"true",
+		"dlayerfield3":"L",
+		"dlayercolor3":"#ffb27f,0",
+
+		"dLayerMarkerStyle4": { 
+			"shape": "true", "shape_points": 5, "shape_radius1": 12, "shape_radius2": 8, "line": true, "line_color": "#333", "line_width": 2, "fill": true, "fill_color": "#7fb2ff", "fill_opacity": 100, "zindex": 1
+		},
+		"dLayerMarkerHoverStyle4": [{ 
+			"marker": "true", "font_height": 12, "font_color": "#fff", "border_color": "#000", "border_width": 5, "zindex": 3, "line_color": "#000", "line_width": 4,
+			"marker_arrowlength": 16, "label": "$[identification_number]", "marker_color": "#9fc2ff", "marker_horpos": "right"
+			}, {
+			"shape": "true", "shape_points": 5, "shape_radius1": 18, "shape_radius2": 8, "line": true, "line_color": "#333", "line_width": 2, "fill": true, "fill_color": "#9fc2ff", "fill_opacity": 100, "zindex": 2
+			}
+		],
+
+		"dlayerlegend4":"Open - points",
+		"dlayerdata4":"http://n00.cs.fiu.edu/cgi-bin/arquery.cgi?category=osm_points&vid=edu&tfaction=shortdisplayflash&filetype=.xml",
+		"dlayerselect4":"true",
+		"dlayerfield4":"L",
+		"dlayercolor4":"#7fb2ff,0",
+
+		"dlayerlegend5":undefined
+	},
+
+	"foo" : {
+		"googleFonts": "Cantarell|Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans",
+		"fontFamily": "Inconsolata",
+		"markerFontFamily": "Droid",
+	},
+
+	"foo2" : {
+		"googleFonts": "Cantarell|Tangerine:bold,bolditalic|Inconsolata:bold|Droid+Sans",
+		"fontFamily": "Inconsolata",
+		"markerFontFamily": "Droid",
+	},
+
+	"APIStyleSpecs": { 
+		"topFontSizePXNumber": 12,
+		"inputFormBorderRadiusPxNumber": "8",
+		"inputFormBkColor": "rgba(128,128,128,0.5)",
+		"mapPopupTextButtonTextColor": "rgba(255,255,255,1)",
+		"mapPopupTextButtonBkColor": "rgba(0,0,0,0.7)",
+		"mapSubLegendBkColor": "rgba(0,0,0,0.5)",
+		"buttonShapedLinkBkColor": "rgba(0,0,0,0.5)",
+		"buttonShapedLinkTextColor": "rgba(255,255,255,1)",
+		"buttonShapedLinkHoverBkColor": "#fff",
+		"buttonShapedLinkMarginPxNumber": 1,
+		"buttonShapedLinkHoverTextColor": "rgba(0,0,0,1)",
+		"darkTextColor": "#eef", 
+		"paddingPxNumber": "6", 
+		"popupCaptionBorderRadiusPXNumber": 16, 
+		"popupContentBkColor": "rgba(192, 192, 192, 0.6)",
+		"popupCaptionBackgroundColor": "rgba(210, 210, 210, 0.6)",
+		"mapControlButtonBkColor": "rgba(192, 192, 192, 0.7)",
+		"mapControlButtonHoverBkColor": "rgba(244, 244, 244, 0.7)", 
+		"buttonDarkFill": "rgba(0, 0, 0, 0.7)",
+		"dLayerSpanBackgroundColor": "rgba(32, 32, 32, 1)",
+		"textShadow": '1px 1px 1px #000',
+		"darkTextShadow": '1px 1px 1px #fff',
+		"textShadowSelRadioCheck": '1px 1px 1px #333',
+		"borderSeparatorLineSpecs": "1px solid",
+		"textInputBackgroundColor": "#000",
+		"mapZoomInBorderRadius": "5px 5px 0 0",
+		"mapZoomOutBorderRadius": "0 0 5px 5px",
+		"mapControlFontWeight": "700",
+        "mapScaleLineBkColor": "rgba(255,255,255,0.5)",
+        "mapScaleLineBorderRadiusPxNumber": 4,
+        "mapScaleLinePaddingPxNumber": 2,
+        "mapScaleLineBorder": "1px solid #07375f",
+        "mapScaleLineFontSizeEmNumber": 0.9,
+        "mapScaleLineMarginPxNumber": 4,
+        "mapScaleLineFontColor": "rgba(0, 0, 0, 0.7)",
+        "tfLogoBorderRadius": "10%",
+        "tfLogoWidth": "8em",
+        "tfLogoHeight": "8em",
+        "tfLogoOpacity": 0.8,
+        "tfLogoBkColor": "rgba(255,255,255,0.3)",
+        "tfLogoBorder": "1px solid rgba(128,128,128,0.3)",
+        "mapControlLineHeightEmNumber": 0,
+        "mapControlTextColor": "rgba(0, 0, 0, 1)",
+        "overviewMapWidthPxNumber": 300,
+        "overviewMapHeightPxNumber": 200,
+        "overviewMapBorderWidthPxNumberNumber": 1,
+        "overviewMapBoxBorder": "2px dotted red",
+	},
+
+	"separatorStyle":{"backgroundColor":"rgba(0,107,133, 0.8)","borderLeft":"1px solid#abebfb","borderRight":"1px solid #00b"},
+		
+	"pageStyle":{"color":"#004"},
+
+	"headerStyle2":{"backgroundColor":"#abebfb"},
+	"contentStyle2":{"backgroundColor":"#abebfb"},
+	"footerStyle2":{"backgroundColor":"#abebfb", "fontSize": "1.2em", "textShadow":"1px 1px 1px #9c9c9c", "color": "#07375f" },
+
+	"headerStyle":{"backgroundColor":"#333"},
+	"contentStyle":{"backgroundColor":"#888"},
+	"footerStyle":{"backgroundColor":"#333", "fontSize": "1.2em", "textShadow":"1px 1px 1px #9c9c9c", "color": "#fff" },
+
+	"titleStyle":{"backgroundColor":"#333", "fontSize": "1.5em", "verticalAlign": "middle", "textShadow":"1px 1px 1px #9c9c9c", "color": "#fff" },
+
+	"logoBkColor":"#fff",
+	"logoStyle":{ "border":"1px solid #ddf"},
+	"appLogoImgStr" : "http://experiment2.cs.fiu.edu/hterramap/test/image/svg/ramLogo.svg",
+
+	"dlayertablestyle11":{"backgroundColor":"#babefb"},
+	"dlayertablestyle1":{"backgroundColor":"#000"},
+
+	"dlayerrowstyle1":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #333",
+		"border": "2px solid #fff",
+		"backgroundColor":"rgba(255, 255, 255, 0.3)","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"20em"
+	},
+	"dlayerrowhover1":{
+		"tf-shadow" : [3, 3, 6, "rgba(0,0,0,0.8)"],
+		"textShadow":"2px 2px 2px #000",
+		"border": "2px dotted #000",
+		"backgroundColor":"rgba(255, 255, 255, 0.9)","color":"#fff", "borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"8px"
+	},
+
+	"dlayerselectonhover1": true,
+
+	"dlayerrowcontent1" : {
+		"textContent1": "$[Display_Summary_Short_Text]",
+		"imageLink" : { "type": "imagelink", "src": "$[Display_Thumbnail]", href: "$[Display_Link_Detail]", "tooltip" : "View Detail report"},
+		"detailLink": { "type": "link", "href": "$[Display_Link_Detail]", "label": "Detail", "tooltip" : "View Detail report" },
+		"nearbyLink": { "type": "link", "href": "$[Display_Link_Report_Recentered]", "label": "Nearby", "tooltip" : "View Nearby report" },
+		"locationLink": { "type": "link", "href": "$[Display_Link_Location]", "label": "Location", "tooltip" : "View Location report" },
+		"proLink": { "type": "link", "href": "$[Display_Link_Pro]", "label": "Pro", "tooltip" : "Professional detail report for realtors only" },
+		"textContent2": "$[Display_Summary_Longer_Text]"
+	},
+
+	"dlayertablestyle2":{"backgroundColor":"#babefb"},
+
+	"dlayerrowstyle2":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #bcbcbc",
+		"backgroundColor":"#7fe5ff","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"20em"
+	},
+	"dlayerrowhover2":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #9c9c9c",
+		"backgroundColor":"#7fe588","color":"#fff","borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"4px"
+	},
+
+	"dlayerselectonhover2": true,
+
+	"dlayerrowcontent2" : {
+		"detailLink": { "type": "link", "href": "$[Display_Link_Detail]", "label": "Detail", "tooltip" : "View Detail report" },
+		"nearbyLink": { "type": "link", "href": "$[Display_Link_Report_Recentered]", "label": "Nearby", "tooltip" : "View Nearby report" },
+		"locationLink": { "type": "link", "href": "$[Display_Link_Location]", "label": "Location", "tooltip" : "View Location report" },
+		"textContent": "$[Display_Summary_Longer_Text]"
+	},
+
+	"dlayertablestyle3":{"backgroundColor":"#abebfb"},
+
+	"dlayerrowstyle3":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #bcbcbc",
+		"backgroundColor":"#ffb27f","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"20em"
+	},
+	"dlayerrowhover3":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #9c9c9c",
+		"backgroundColor":"#ffe7df","color":"#fff","borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"4px"
+	},
+
+	"dlayerselectonhover3": true,
+
+	"dlayerrowcontent3" : {
+		"detailLink": { "type": "link", "href": "$[Display_Link_Detail]", "label": "Detail", "tooltip" : "View Detail report" },
+		"nearbyLink": { "type": "link", "href": "$[Display_Link_Report_Recentered]", "label": "Nearby", "tooltip" : "View Nearby report" },
+		"locationLink": { "type": "link", "href": "$[Display_Link_Location]", "label": "Location", "tooltip" : "View Location report" },
+		"textContent": "$[Display_Summary_Longer_Text]"
+	},
+
+	"dlayertablestyle4":{"backgroundColor":"#babefb"},
+
+	"dlayerrowstyle4":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #bcbcbc",
+		"backgroundColor":"#7fb2ff","color":"#fff","borderRadius":"1px","margin":"6px","padding":"6px","maxWidth":"20em"
+	},
+	"dlayerrowhover4":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #9c9c9c",
+		"backgroundColor":"#dfb28f","color":"#fff","borderRadius":"1px","margin":"4px","marginTop":"6px","marginLeft":"6px","padding":"6px"
+	},
+
+	"dlayerselectonhover4": true,
+
+	"dlayerrowcontent4" : {
+		"detailLink": { "type": "link", "href": "$[Display_Link_Detail]", "label": "Detail", "tooltip" : "View Detail report" },
+		"nearbyLink": { "type": "link", "href": "$[Display_Link_Report_Recentered]", "label": "Nearby", "tooltip" : "View Nearby report" },
+		"locationLink": { "type": "link", "href": "$[Display_Link_Location]", "label": "Location", "tooltip" : "View Location report" },
+		"textContent": "$[Display_Summary_Longer_Text]"
+	},
+
+	"filterDLayerRecord": true
+}

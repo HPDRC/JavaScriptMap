@@ -1,0 +1,185 @@
+{
+	"replaceURLParams" : {
+
+		"dLayerMarkerStyle1": [{
+			"circle": "true", "circle_radius": 7, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		},{
+			"circle": "true", "circle_radius": 6, "line": true, "line_color": "#fff59f", "line_width": 2, "fill": false, "zindex": 1
+		},{
+			"circle": "true", "circle_radius": 4, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		}],
+		"dLayerMarkerHoverStyle1": [{ 
+			"marker": "true", "font_height": 13, "font_color": "#000", "border_color": "#000", "border_width": 2, "zindex": 2, "line_opacity": 60,
+			"line_width": 3, "line_color": "#fff", "marker_arrowlength": 14, "label": "$[L]", "marker_color": "#ffe57f", "marker_horpos": "left", "marker_verpos": "center", marker_opacity: 55, border_opacity: 60
+		},{
+			"circle": "true", "circle_radius": 7, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		},{
+			"circle": "true", "circle_radius": 6, "line": true, "line_color": "#fff59f", "line_width": 2, "fill": true, "fill_color": "#fff59f", "fill_opacity": 50, "zindex": 4
+		},{
+			"circle": "true", "circle_radius": 4, "line": true, "line_color": "#000", "line_width": 1, "zindex": 1
+		}
+		],
+
+		"dlayerlegend1":"Business-QUERY",
+		"dlayerdata1":"http://acorn.cs.fiu.edu/cgi-bin/arquery.cgi?category=iypages_demographics_sic_clustering&vid=nist.gov&tfaction=shortdisplayflash&filetype=.xml",
+		"dlayerselect1":"true",
+		"dlayerfield1":"L",
+		"dlayercolor1": "#ffe57f,0",
+
+		"dlayerlegend6":undefined
+	},
+
+	"APIStyleSpecs": { 
+		"topFontSizePXNumber": 12,
+		"inputFormBorderRadiusPxNumber": "8",
+		"inputFormBkColor": "rgba(128,128,128,0.5)",
+		"mapPopupTextButtonTextColor": "rgba(255,255,255,1)",
+		"mapPopupTextButtonBkColor": "rgba(0,0,0,0.7)",
+		"mapSubLegendBkColor": "rgba(0,0,0,0.5)",
+		"buttonShapedLinkBkColor": "rgba(0,0,0,0.5)",
+		"buttonShapedLinkTextColor": "rgba(255,255,255,1)",
+		"buttonShapedLinkHoverBkColor": "#fff",
+		"buttonShapedLinkMarginPxNumber": 1,
+		"buttonShapedLinkHoverTextColor": "rgba(0,0,0,1)",
+		"darkTextColor": "#eef", 
+		"paddingPxNumber": "6", 
+		"popupCaptionBorderRadiusPXNumber": 16, 
+		"popupContentBkColor": "rgba(192, 192, 192, 0.6)",
+		"popupCaptionBackgroundColor": "rgba(210, 210, 210, 0.6)",
+		"mapControlButtonBkColor": "rgba(192, 192, 192, 0.7)",
+		"mapControlButtonHoverBkColor": "rgba(244, 244, 244, 0.7)", 
+		"buttonDarkFill": "rgba(0, 0, 0, 0.7)",
+		"dLayerSpanBackgroundColor": "rgba(32, 32, 32, 1)",
+		"textShadow": '1px 1px 1px #000',
+		"darkTextShadow": '1px 1px 1px #fff',
+		"textShadowSelRadioCheck": '1px 1px 1px #333',
+		"borderSeparatorLineSpecs": "1px solid",
+		"textInputBackgroundColor": "#000",
+		"mapZoomInBorderRadius": "5px 5px 0 0",
+		"mapZoomOutBorderRadius": "0 0 5px 5px",
+		"mapControlFontWeight": "700",
+        "mapScaleLineBkColor": "rgba(255,255,255,0.5)",
+        "mapScaleLineBorderRadiusPxNumber": 4,
+        "mapScaleLinePaddingPxNumber": 2,
+        "mapScaleLineBorder": "1px solid #07375f",
+        "mapScaleLineFontSizeEmNumber": 0.9,
+        "mapScaleLineMarginPxNumber": 4,
+        "mapScaleLineFontColor": "rgba(0, 0, 0, 0.7)",
+        "tfLogoBorderRadius": "10%",
+        "tfLogoWidth": "8em",
+        "tfLogoHeight": "8em",
+        "tfLogoOpacity": 0.8,
+        "tfLogoBkColor": "rgba(255,255,255,0.3)",
+        "tfLogoBorder": "1px solid rgba(128,128,128,0.3)",
+        "mapControlLineHeightEmNumber": 0,
+        "mapControlTextColor": "rgba(0, 0, 0, 1)",
+        "overviewMapWidthPxNumber": 300,
+        "overviewMapHeightPxNumber": 200,
+        "overviewMapBorderWidthPxNumberNumber": 1,
+        "overviewMapBoxBorder": "2px dotted red",
+	},
+
+	"separatorStyle":{"backgroundColor":"rgba(0,107,133, 0.8)","borderLeft":"1px solid#abebfb","borderRight":"1px solid #00b"},
+		
+	"pageStyle":{"color":"#004"},
+
+	"headerStyle2":{"backgroundColor":"#abebfb"},
+	"contentStyle2":{"backgroundColor":"#abebfb"},
+	"footerStyle2":{"backgroundColor":"#abebfb", "fontSize": "1.2em", "textShadow":"1px 1px 1px #9c9c9c", "color": "#07375f" },
+
+	"headerStyle":{"backgroundColor":"#333"},
+	"contentStyle":{"backgroundColor":"#888"},
+	"footerStyle":{"backgroundColor":"#333", "fontSize": "1.2em", "textShadow":"1px 1px 1px #9c9c9c", "color": "#fff" },
+
+	"titleStyle":{"backgroundColor":"#333", "fontSize": "1.5em", "verticalAlign": "middle", "textShadow":"1px 1px 1px #9c9c9c", "color": "#fff" },
+
+	"documentTitle": "Motion Demo",
+
+	"logoBkColor":"#fff",
+	"logoStyle":{ "border":"1px solid #ddf"},
+	"appLogoImgStr" : "http://experiment2.cs.fiu.edu/hterramap/test/image/svg/hotel.svg",
+
+	"dlayertablestyle11":{"backgroundColor":"#babefb"},
+	"dlayertablestyle1":{"backgroundColor":"#000"},
+
+	"dlayerrowstyle1":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #333",
+		"border": "2px solid #fff",
+		"backgroundColor":"rgba(255, 255, 255, 0.3)","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"20em"
+	},
+	"dlayerrowhover1":{
+		"tf-shadow" : [3, 3, 6, "rgba(0,0,0,0.8)"],
+		"textShadow":"2px 2px 2px #000",
+		"border": "2px dotted #000",
+		"backgroundColor":"rgba(255, 255, 255, 0.9)","color":"#ff8", "borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"8px","maxWidth":"20em"
+	},
+
+	"dlayerselectonhover1": true,
+
+	"dlayerrowcontent1" : {
+		"textContent1": "$[Display_Summary_Short_Text]",
+		"imageLink" : { "type": "imagelink", "src": "$[Display_Thumbnail]", href: "$[Display_Link_Detail]", "tooltip" : "View Detail report"},
+		"detailLink": { "type": "link", "href": "$[Display_Link_Detail]", "label": "Detail", "tooltip" : "View Detail report" },
+		"nearbyLink": { "type": "link", "href": "$[Display_Link_Report_Recentered]", "label": "Nearby", "tooltip" : "View Nearby report" },
+		"locationLink": { "type": "link", "href": "$[Display_Link_Location]", "label": "Location", "tooltip" : "View Location report" },
+		"proLink": { "type": "link", "href": "$[Display_Link_Pro]", "label": "Pro", "tooltip" : "Professional detail report for realtors only" },
+		"textContent2": "$[Display_Summary_Longer_Text]"
+	},
+
+	"appCenter":[-71.204835,41.646505],
+
+	"FSTableStyle":{"backgroundColor":"#000"},
+
+	"FSTableRowStyle":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #333",
+		"border": "2px solid #fff",
+		"backgroundColor":"rgba(255, 255, 255, 0.3)","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"30em"
+	},
+	"FSTableRowHoverStyle":{
+		"tf-shadow" : [3, 3, 6, "rgba(0,0,0,0.8)"],
+		"textShadow":"2px 2px 2px #000",
+		"border": "2px dotted #000",
+		"backgroundColor":"rgba(255, 255, 255, 0.9)","color":"#ff8", "borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"8px", "maxWidth":"30em"
+	},
+
+	"FSTableSelectOnHover": false,
+
+	"motionTableStyle":{"backgroundColor":"#000"},
+
+	"motionTableRowStyle":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #333",
+		"border": "2px solid #fff",
+		"backgroundColor":"rgba(255, 255, 255, 0.3)","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"30em"
+	},
+	"motionTableRowHoverStyle":{
+		"tf-shadow" : [3, 3, 6, "rgba(0,0,0,0.8)"],
+		"textShadow":"2px 2px 2px #000",
+		"border": "2px dotted #000",
+		"backgroundColor":"rgba(255, 255, 255, 0.9)","color":"#ff8", "borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"8px", "maxWidth":"30em"
+	},
+
+	"motionTableSelectOnHover": false,
+
+	"daysTableStyle":{"backgroundColor":"#000"},
+
+	"daysTableRowStyle":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #333",
+		"border": "2px solid #fff",
+		"backgroundColor":"rgba(255, 255, 255, 0.3)","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"30em"
+	},
+	"daysTableRowHoverStyle":{
+		"tf-shadow" : [3, 3, 6, "rgba(0,0,0,0.8)"],
+		"textShadow":"2px 2px 2px #000",
+		"border": "2px dotted #000",
+		"backgroundColor":"rgba(255, 255, 255, 0.9)","color":"#fff", "borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"8px", "maxWidth":"30em"
+	},
+
+	"daysTableSelectOnHover": false,
+
+	"tableRowWidth": "15em"
+}
+

@@ -1,0 +1,1 @@
+- Check url encoding/decoding of image file names used as icons by the URL-API or cominig from Arquery results

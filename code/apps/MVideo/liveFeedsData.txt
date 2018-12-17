@@ -1,0 +1,53 @@
+var liveFeeds = {
+	"restURI":"http://alaska.cs.fiu.edu:8087/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/live/instances",
+	"instanceList":
+	[
+		{
+			"restURI":"/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/live/instances/_definst_",
+			"incomingStreams":[
+				{
+					"restURI":"/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/live/instances/_definst_/incomingstreams/test",
+					"sourceIp":"rtsp://50.138.90.73",
+					"isPTZEnabled":false,
+					"applicationInstance":"_definst_",
+					"name":"test",
+					"isRecordingSet":true,
+					"isStreamManagerStream":false,
+					"isPublishedToVOD":false,
+					"isConnected":true,
+					"ptzPollingInterval":2000
+				}
+			],
+			"outgoingStreams":[
+			],
+			"recorders":[
+				{
+					"restURI":"/v2/servers/_defaultServer_/vhosts/_defaultVHost_/applications/live/instances/_definst_/streamrecorders/test",
+					"recorderName":"test",
+					"instanceName":"_definst_",
+					"recorderState":"Recording in Progress",
+					"defaultRecorder":false,
+					"segmentationType":"SegmentByDuration",
+					"outputPath":"E:\\StreamRecordings",
+					"baseFile":"test.mp4",
+					"fileFormat":"MP4",
+					"fileVersionDelegateName":"com.wowza.wms.livestreamrecord.manager.StreamRecorderFileVersionDelegate",
+					"fileTemplate":"${BaseFileName}_${RecordingStartTime}_${SegmentNumber}",
+					"segmentDuration":1612,
+					"segmentSize":10485760,
+					"segmentSchedule":"0 * * * * *",
+					"recordData":false,
+					"startOnKeyFrame":true,
+					"option":"Version existing file",
+					"moveFirstVideoFrameToZero":true,
+					"currentSize":35349,
+					"currentDuration":1612,
+					"currentFile":"E:\\StreamRecordings\\test_2015-11-06-10.42.49.227-EST_0.mp4",
+					"recordingStartTime":"2015-11-06-10.42.49.227-EST"
+				}
+			],
+			"streamGroups":[],
+			"name":"_definst_"
+		}
+	]
+};

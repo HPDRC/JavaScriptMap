@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>hotel</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="TF-Iconbar-Aug-2015" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="hotel" sketch:type="MSArtboardGroup">
+            <path d="M-1,5.99999991 L7.81832799,1.0013203 C7.95269335,0.913598128 17.0000009,6 17.0000009,6" id="Shape" stroke="#005B86" stroke-width="2" sketch:type="MSShapeGroup"/>
+            <path d="M7,11 C7.13253415,10.9424331 7.25298007,10.8868172 7.36374523,10.8332974 C8.42527094,10.320387 8.59766886,10 10,10 C10.8884228,10 12.1543624,10.3940763 13,10.6006062 L13,12.0004194 L3,12.0004194 L3,9 C5,9 7,11 7,11 Z M14,13 L2,13 L2,15 L14,15 L14,13 Z M16,16 L14,16 L14,10 L16,10 L16,16 L16,16 Z M0,16 L2,16 L2,8 L0,8 L0,16 L0,16 Z" id="Shape-Copy" fill="#005B86" sketch:type="MSShapeGroup"/>
+        </g>
+    </g>
+</svg>

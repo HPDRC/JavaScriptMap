@@ -1,0 +1,20 @@
+{
+	"tags": {
+		"allowUnknownTags" : true
+	},
+	"plugins": ["plugins/markdown"],
+	"templates": {
+		"applicationName": "TerraFly API",
+		"cleverLinks": true,
+		"monospaceLinks": true,
+		"linenums": false,
+		"default": {
+			"outputSourceFiles" : false
+		}
+	},
+	"markdown": {
+		"parser": "gfm",
+		"hardwrap": true,
+		"tags": ["examples"]
+	}
+}

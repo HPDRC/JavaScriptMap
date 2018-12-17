@@ -1,0 +1,115 @@
+{
+	"replaceURLParams" : {
+	},
+
+	"APIStyleSpecs": { 
+		"topFontSizePXNumber": 12,
+		"inputFormBorderRadiusPxNumber": "8",
+		"inputFormBkColor": "rgba(128,128,128,0.5)",
+		"mapPopupTextButtonTextColor": "rgba(255,255,255,1)",
+		"mapPopupTextButtonBkColor": "rgba(0,0,0,0.7)",
+		"mapSubLegendBkColor": "rgba(0,0,0,0.5)",
+		"buttonShapedLinkBkColor": "rgba(0,0,0,0.5)",
+		"buttonShapedLinkTextColor": "rgba(255,255,255,1)",
+		"buttonShapedLinkHoverBkColor": "#fff",
+		"buttonShapedLinkMarginPxNumber": 1,
+		"buttonShapedLinkHoverTextColor": "rgba(0,0,0,1)",
+		"darkTextColor": "#eef", 
+		"paddingPxNumber": "6", 
+		"popupCaptionBorderRadiusPXNumber": 16, 
+		"popupContentBkColor": "rgba(192, 192, 192, 0.6)",
+		"popupCaptionBackgroundColor": "rgba(210, 210, 210, 0.6)",
+		"mapControlButtonBkColor": "rgba(192, 192, 192, 0.7)",
+		"mapControlButtonHoverBkColor": "rgba(244, 244, 244, 0.7)", 
+		"buttonDarkFill": "rgba(0, 0, 0, 0.7)",
+		"dLayerSpanBackgroundColor": "rgba(32, 32, 32, 1)",
+		"textShadow": '1px 1px 1px #000',
+		"darkTextShadow": '1px 1px 1px #fff',
+		"textShadowSelRadioCheck": '1px 1px 1px #333',
+		"borderSeparatorLineSpecs": "1px solid",
+		"textInputBackgroundColor": "#000",
+		"mapZoomInBorderRadius": "5px 5px 0 0",
+		"mapZoomOutBorderRadius": "0 0 5px 5px",
+		"mapControlFontWeight": "700",
+        "mapScaleLineBkColor": "rgba(255,255,255,0.5)",
+        "mapScaleLineBorderRadiusPxNumber": 4,
+        "mapScaleLinePaddingPxNumber": 2,
+        "mapScaleLineBorder": "1px solid #07375f",
+        "mapScaleLineFontSizeEmNumber": 0.9,
+        "mapScaleLineMarginPxNumber": 4,
+        "mapScaleLineFontColor": "rgba(0, 0, 0, 0.7)",
+        "tfLogoBorderRadius": "10%",
+        "tfLogoWidth": "8em",
+        "tfLogoHeight": "8em",
+        "tfLogoOpacity": 0.8,
+        "tfLogoBkColor": "rgba(255,255,255,0.3)",
+        "tfLogoBorder": "1px solid rgba(128,128,128,0.3)",
+        "mapControlLineHeightEmNumber": 0,
+        "mapControlTextColor": "rgba(0, 0, 0, 1)",
+        "overviewMapWidthPxNumber": 300,
+        "overviewMapHeightPxNumber": 200,
+        "overviewMapBorderWidthPxNumberNumber": 1,
+        "overviewMapBoxBorder": "2px dotted red",
+	},
+
+	"separatorStyle":{"backgroundColor":"rgba(0,107,133, 0.8)","borderLeft":"1px solid#abebfb","borderRight":"1px solid #00b"},
+		
+	"pageStyle":{"color":"#004"},
+
+	"headerStyle2":{"backgroundColor":"#abebfb"},
+	"contentStyle2":{"backgroundColor":"#abebfb"},
+	"footerStyle2":{"backgroundColor":"#abebfb", "fontSize": "1.2em", "textShadow":"1px 1px 1px #9c9c9c", "color": "#07375f" },
+
+	"headerStyle":{"backgroundColor":"#333"},
+	"contentStyle":{"backgroundColor":"#888"},
+	"footerStyle":{"backgroundColor":"#333", "fontSize": "1.2em", "textShadow":"1px 1px 1px #9c9c9c", "color": "#fff" },
+
+	"titleStyle":{"backgroundColor":"#333", "fontSize": "1.5em", "verticalAlign": "middle", "textShadow":"1px 1px 1px #9c9c9c", "color": "#fff" },
+
+	"documentTitle": "Hotel Demo",
+
+	"logoBkColor":"#fff",
+	"logoStyle":{ "border":"1px solid #ddf"},
+	"appLogoImgStr" : "./image/hotel.svg",
+
+	"guestTableStyle":{"backgroundColor":"#000"},
+
+	"guestTableRowStyle":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #333",
+		"border": "2px solid #fff",
+		"backgroundColor":"rgba(255, 255, 255, 0.3)","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"14em"
+	},
+	"guestTableRowHoverStyle":{
+		"tf-shadow" : [3, 3, 6, "rgba(0,0,0,0.8)"],
+		"textShadow":"2px 2px 2px #000",
+		"border": "2px dotted #000",
+		"backgroundColor":"rgba(255, 255, 255, 0.9)","color":"#fff", "borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"8px", "maxWidth":"14em"
+	},
+
+	"guestTableSelectOnHover": true,
+
+	"shuttleTableStyle":{"backgroundColor":"#000"},
+
+	"shuttleTableRowStyle":{
+		"tf-shadow" : [-2, -2, 4, "rgba(0,0,0,0.6)"],
+		"textShadow":"1px 1px 1px #333",
+		"border": "2px solid #fff",
+		"backgroundColor":"rgba(255, 255, 255, 0.3)","color":"#fff","borderRadius":"8px","margin":"4px","padding":"4px","maxWidth":"14em"
+	},
+	"shuttleTableRowHoverStyle":{
+		"tf-shadow" : [3, 3, 6, "rgba(0,0,0,0.8)"],
+		"textShadow":"2px 2px 2px #000",
+		"border": "2px dotted #000",
+		"backgroundColor":"rgba(255, 255, 255, 0.9)","color":"#fff", "borderRadius":"10px","margin":"2px","marginTop":"4px","marginLeft":"4px","padding":"8px", "maxWidth":"14em"
+	},
+
+	"shuttleTableSelectOnHover": true,
+
+	"footDistance": 200,
+	"bikeFootDistance": 500,
+	"bikeChance01": 0.4,
+
+	"useUSRouting": true
+}
+
